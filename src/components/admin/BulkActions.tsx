@@ -134,7 +134,7 @@ export const BulkActions = ({
             <h4 className="text-sm font-medium">Content DisApproval:</h4>
             <div className="flex flex-wrap gap-2">
               <Button size="sm" variant="outline" onClick={() => onBulkAction({type:"disapprove", field:"photo1"})}>DisApproval Photo 1</Button>
-              <Button size="sm" variant="outline" onClick={() => onBulkAction({type:"disapprove",field:"photo1"})}>DisApproval Photo 2</Button>
+              <Button size="sm" variant="outline" onClick={() => onBulkAction({type:"disapprove",field:"photo2"})}>DisApproval Photo 2</Button>
               <Button size="sm" variant="outline" onClick={() => onBulkAction({type:"disapprove",field:"bio"})}>DisApproval Bio</Button>
               <Button size="sm" variant="outline" onClick={() => onBulkAction({type:"disapprove", field:"expectations"})}>DisApproval Expectations</Button>
             </div>
